@@ -1,0 +1,21 @@
+@use "sass:color";
+
+$primary: #3498db;
+$white: #fff;
+$black: #000;
+
+:root {
+  --primary: #{$primary};
+  --white: #{$white};
+  --black: #{$black};
+}
+
+body {
+  background: color.adjust($white, $lightness: 40%);
+  color: $black;
+  font-family: Arial, sans-serif;
+}
+
+a {
+  color: $primary;
+}

@@ -1,8 +1,17 @@
+:root {
+  --primary: #3498db;
+  --white: #fff;
+  --black: #000;
+}
+
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: hsl(0, 0%, 140%);
+  color: #000;
+  font-family: Arial, sans-serif;
 }
 
 a {
-  color: #00B7FF;
+  color: #3498db;
 }
+
+/*# sourceMappingURL=style.css.map */
